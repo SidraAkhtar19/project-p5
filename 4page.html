@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="4style.css">
+<title>Ecommerce Cart and Shop</title>
+
+</head>
+<body>
+
+
+<header>
+  <img src="logo-colored.png">
+  <div class="header-icons" aria-label="User navigation icons">
+    <div><i class="fa-solid fa-user"></i>Profile</div>
+    <div><i class="fa-solid fa-message"></i>Message</div>
+    <div><i class="fa-solid fa-heart"></i>Orders</div>
+    <div><i class="fa-solid fa-cart-shopping"></i>My cart</div>
+  </div>
+</header>
+
+ <!-- hero secc -->
+
+ <div class="sections">
+      
+       <!-- Cart Section -->
+  <section class="cart-section" aria-labelledby="cart-heading">
+    <h2 id="cart-heading">My cart (3)</h2>
+    <article class="cart-item" aria-label="Cart item T-shirts with multiple colors">
+      <img src="Bitmap.png" alt="T-shirt blue" />
+      <div class="cart-info">
+        <h3>T-shirts with multiple colors, for men and lady</h3>
+        <p>Size: <span>medium</span>, Color: <span>blue</span>, Material: <span>Plastic</span></p>
+        <p>Seller: <span>Artel Market</span></p>
+        <div class="cart-actions">
+          <button class="btn-remove" type="button" aria-label="Remove item 1">Remove</button>
+          <button class="btn-save" type="button" aria-label="Save item 1 for later">Save for later</button>
+        </div>
+      </div>
+      <div class="cart-price-qty">
+        <div class="cart-price">$78.99</div>
+        <select class="qty-select" aria-label="Quantity for T-shirts with multiple colors">
+          <option selected>QTY: 9 <i class="fa-solid fa-angle-down"></i></option>
+        </select>
+      </div>
+    </article>
+
+    <article class="cart-item" aria-label="Cart item backpack">
+      <img src="image 26.png" alt="Blue backpack" />
+      <div class="cart-info">
+        <h3>T-shirts with multiple colors, for men and lady</h3>
+        <p>Size: <span>medium</span>, Color: <span>blue</span>, Material: <span>Plastic</span></p>
+        <p>Seller: <span>Best factory LLC</span></p>
+        <div class="cart-actions">
+          <button class="btn-remove" type="button" aria-label="Remove item 2">Remove</button>
+          <button class="btn-save" type="button" aria-label="Save item 2 for later">Save for later</button>
+        </div>
+      </div>
+      <div class="cart-price-qty">
+        <div class="cart-price">$39.00</div>
+        <select class="qty-select" aria-label="Quantity for backpack">
+          <option selected>QTY: 3</option>
+        </select>
+      </div>
+    </article>
+
+    <article class="cart-item" aria-label="Cart item t-shirt beige">
+      <img src="6 (2).png" alt="T-shirt beige" />
+      <div class="cart-info">
+        <h3>T-shirts with multiple colors, for men and lady</h3>
+        <p>Size: <span>medium</span>, Color: <span>blue</span>, Material: <span>Plastic</span></p>
+        <p>Seller: <span>Artel Market</span></p>
+        <div class="cart-actions">
+          <button class="btn-remove" type="button" aria-label="Remove item 3">Remove</button>
+          <button class="btn-save" type="button" aria-label="Save item 3 for later">Save for later</button>
+        </div>
+      </div>
+      <div class="cart-price-qty">
+        <div class="cart-price">$170.50</div>
+        <select class="qty-select" aria-label="Quantity for t-shirt beige">
+          <option selected>QTY: 1</option>
+        </select>
+      </div>
+    </article>
+
+
+    <div class="cart-bottom">
+      <button class="btn-back-shop" type="button">← Back to shop</button>
+      <button class="btn-remove-all" type="button">Remove all</button>
+    </div>
+  </section>
+
+
+      <!-- Coupon & summary -->
+       <!-- class="summary-sidebar" -->
+  <aside  aria-label="Coupon and order summary">
+    <div class="form">
+      <form class="coupon-box" aria-label="Coupon code form">
+      <label for="coupon">Have a coupon?</label>
+      <input type="text" id="coupon" name="coupon" placeholder="Add coupon" />
+      <button type="submit">Apply</button>
+    </form>
+    </div>
+   
+    <div class="summary-rows">
+      <div><span>Subtotal:</span> <span>$1403.97</span></div>
+      <div class="discount"><span>Discount:</span> <span>-$60.00</span></div>
+      <div class="tax"><span>Tax:</span> <span>+ $14.00</span></div>
+      <div class="total"><span>Total:</span> <span>$1357.97</span></div>
+   
+        <button class="btn-checkout" type="button" aria-label="Checkout now">Checkout</button>
+    <div class="payment-logos" aria-label="Accepted payment methods">
+      <img src="amex.jpg" alt="Amex" />
+      <img src="master.jpg" alt="MasterCard" />
+      <img src="p.jpg" alt="p">
+      <img src="visa.jpg" alt="Visa" />
+      <img src="pay.jpg" alt="Apple Pay" />
+    </div>
+    </div>
+   
+  </aside>
+
+    </div>
+ 
+
+  <!-- Secure payment, support, delivery -->
+ <section class="secure-support-delivery" aria-label="Security, customer support and delivery information">
+  <div class="ssd-item">
+      <img src="i.jpg">
+      <div class="text-box">
+        Secure payment<br><small>Have you ever finally just</small>
+      </div>
+  </div>
+
+  <div class="ssd-item">
+      <img src="ii.jpg">
+      <div class="text-box">
+        Customer support<br><small>Have you ever finally just</small>
+      </div>
+  </div>
+
+  <div class="ssd-item">
+      <img src="iii.jpg">
+      <div class="text-box">
+        Free delivery<br><small>Have you ever finally just</small>
+      </div>
+  </div>
+</section>
+
+
+
+  <!-- Saved for later products -->
+  <section class="saved-later" aria-label="Saved for later products">
+    <h3>Saved for later</h3>
+    <div class="saved-items" tabindex="0">
+      <div class="saved-item">
+        <img src="image 32.png" alt="GoPro HERO6 4K Action Camera - Black" />
+        <div class="price">$99.50</div>
+        <div class="desc">GoPro HERO6 4K Action <br> Camera - Black</div>
+        <button type="button" aria-label="Move GoPro HERO6 4K Action Camera to cart"> <i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+      </div>
+      <div class="saved-item">
+        <img src="image 33.png" alt="GoPro HERO6 4K Action Camera - Black" />
+        <div class="price">$99.50</div>
+        <div class="desc">GoPro HERO6 4K Action <br> Camera - Black</div>
+        <button type="button" aria-label="Move GoPro HERO6 4K Action Camera to cart"> <i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+      </div>
+      <div class="saved-item">
+        <img src="8.png" alt="GoPro HERO6 4K Action Camera - Black" />
+        <div class="price">$99.50</div>
+        <div class="desc">GoPro HERO6 4K Action <br> Camera - Black</div>
+        <button type="button" aria-label="Move GoPro HERO6 4K Action Camera to cart"> <i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+      </div>
+      <div class="saved-item">
+        <img src="image 34.png" alt="GoPro HERO6 4K Action Camera - Black" />
+        <div class="price">$99.50</div>
+        <div class="desc">GoPro HERO6 4K Action <br> Camera - Black</div>
+        <button type="button" aria-label="Move GoPro HERO6 4K Action Camera to cart"> <i class="fa-solid fa-cart-shopping"></i> Move to cart</button>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- Discount banner -->
+  <section class="discount-banner" role="banner" aria-label="Super discount promotion">
+    <div>
+      <p>Super discount on more than 100 USD</p>
+      <small>Have you ever finally just write dummy info</small>
+    </div>
+    <button type="button">Shop now</button>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand" aria-label="Brand info and social media">
+      <div class="brand">
+        <img src="logo-colored.png" alt="">
+      </div>
+      <p>Best information about the company goes here but now lorem ipsum is</p>
+      <div class="social-icons" aria-label="Social media links">
+       <a href="#" aria-label="Facebook" title="Facebook" tabindex="0"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter" title="Twitter" tabindex="0"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn" title="LinkedIn" tabindex="0"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Instagram" title="Instagram" tabindex="0"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube" title="YouTube" tabindex="0"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Find store</a>
+        <a href="#">Categories</a>
+        <a href="#">Blogs</a>
+      </div>
+      <div>
+        <h4>Partnership</h4>
+        <a href="#">About Us</a>
+        <a href="#">Find store</a>
+        <a href="#">Categories</a>
+        <a href="#">Blogs</a>
+      </div>
+      <div>
+        <h4>Information</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Money Refund</a>
+        <a href="#">Shipping</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div>
+        <h4>For users</h4>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+        <a href="#">Settings</a>
+        <a href="#">My Orders</a>
+      </div>
+      <div class="app-download">
+        <h4>Get app</h4>
+         <a href="#" aria-label="Download on the App Store" tabindex="0"><img src="market-button.png" alt="App Store" /></a>
+        <a href="#" aria-label="Get it on Google Play" tabindex="0"><img src="Group.png" alt="Google Play" /></a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+  <div class="footer-bottom">
+  <span class="left-text">&copy; 2023 Ecommerce.</span>
+  <span class="right-text">
+    <img src="US@2x.png" alt="US Flag" />
+    English
+  </span>
+</div>
+
+</body>
+</html>
